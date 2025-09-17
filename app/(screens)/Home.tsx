@@ -1,12 +1,13 @@
 import React from 'react';
 import ScreenWrapper from "@/components/ScreenWrapper";
-import {View, Text} from "react-native";
+import {View} from "react-native";
+import {SignOutButton} from "@/components/SignOutButton";
 
 const Home = () => {
     return (
         <ScreenWrapper>
             <View>
-                <Text>Home Screen</Text>
+                <SignOutButton/>
             </View>
         </ScreenWrapper>
     );

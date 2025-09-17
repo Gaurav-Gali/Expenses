@@ -14,8 +14,8 @@ const Welcome = () => {
                     source={require('@/assets/welcome.png')}
                     style={{ width: 300, height: 300, resizeMode: 'contain' }}
                 />
-                <Text className="text-zinc-950 text-4xl font-bold mt-6">
-                    Welcome to <Text id={"expenses"}>Expenses</Text>
+                <Text className="text-zinc-950 text-4xl font-semibold mt-6">
+                    Welcome to <Text className={"text-emerald-600"}>Expenses</Text>
                 </Text>
             </View>
 
